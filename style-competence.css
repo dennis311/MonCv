@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "TitanOne";
+    src:url("font/TitanOne-Regular.ttf") format("TrueType");
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image:url("paper.jpg");
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 1%;
+
+}
+p{
+    text-align: center;
+}
+
+.text-onglet{
+    text-align: center;
+
+}
+.onglet-presentation{
+    background-color:#1a75ff;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    box-shadow: 10px -3px 18px black;
+
+}
+.onglet-parcours{
+    background-color:#ff471a;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    box-shadow: 10px -3px 18px black;
+}
+.onglet-compétence{
+    background-color:#00cc00;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    box-shadow: 10px -3px 18px black;
+}
+.onglet-contact{
+    background-color:#ffff00;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    box-shadow: 10px -3px 18px black;
+
+}
+
+.presentation{
+    width:97%;
+    height:92%;
+    padding-bottom:43%;
+    display:flex;
+    flex-direction: row;
+
+    background-color: #ffe066;
+
+    margin-right:2%;
+    margin-left: 1%;
+
+    box-shadow: 10px -3px 18px black;
+
+}
+.presentation h1{
+    font-family:"TitanOne";
+    color: white;
+    text-shadow: 10px 10px 10px black;
+}
